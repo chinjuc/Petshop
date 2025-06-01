@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.image{
+    width: 100%;
+    height: 800px;
+    background-image: url(./img/beautiful-pet-portrait-dog.jpg);
+    background-size: cover;
+    object-fit: cover;
+   
+}
+
+@media (max-width:720px) {
+    .image{
+        height: 500px;
+
+    }
+    
+    
+}
+@media (max-width:400px) {
+    .image{
+        height: 250px;
+    }
+}
+
+.imagee{
+    height: 600px;
+    background-image: url(./img/adorable-fluffy-golden-retriever-puppy-showing-its-tongue.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+
+}
+@media (max-width:720px) {
+    .imagee{
+        height: 500px;
+
+    }
+    
+    
+}
+@media (max-width:400px) {
+    .imagee{
+        height: 250px;
+    }
+}
